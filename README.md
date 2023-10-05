@@ -5,7 +5,7 @@ The goal of the project is
 
 The source data (licenses) used in the project are
 
-The link to Wikimedia Foundation REST API terms of use: https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions
+The link to Wikimedia Foundation REST API: [terms of use](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)
 
 Links to relevant API documentation:
 
