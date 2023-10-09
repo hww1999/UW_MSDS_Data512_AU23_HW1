@@ -34,3 +34,5 @@ Known issues/special considerations: for now, there exists movies in the list of
     ├── Top10PeakViews.png
     └── data visualization.ipynb
 ```
+
+![MinMaxAvg](https://github.com/hww1999/data-512-homework_1/assets/50925030/3ba2bfa2-ae5d-4cac-b778-9905f4e06c68)
