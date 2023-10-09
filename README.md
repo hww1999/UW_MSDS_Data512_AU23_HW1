@@ -11,3 +11,26 @@ Intermediary data files include: X - with fields of ...
 Final output files include: Y - with fields of ...
 
 Known issues/special considerations: for now, there exists movies in the list of articles that have no data from the PageViews API we used.
+
+```bash
+.
+├── LICENSE
+├── README.md
+├── data
+│   ├── data processing.ipynb
+│   ├── data scrape.ipynb
+│   ├── final json files
+│   │   ├── academy_monthly_cumulative_start201507-end202310.json
+│   │   ├── academy_monthly_desktop_start201507-end202310.json
+│   │   └── academy_monthly_mobile_start201507-end202310.json
+│   └── intermediary json files
+│       ├── inter_desktop_start201507-end202310.json
+│       ├── inter_mobile_app_start201507-end202310.json
+│       └── inter_mobile_web_start201507-end202310.json
+└── visualization
+    ├── FewestMonthData.png
+    ├── MinAvg.png
+    ├── MinMaxAvg.png
+    ├── Top10PeakViews.png
+    └── data visualization.ipynb
+```
