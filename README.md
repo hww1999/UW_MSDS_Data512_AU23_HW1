@@ -35,4 +35,13 @@ Known issues/special considerations: for now, there exists movies in the list of
     └── data visualization.ipynb
 ```
 
-![MinMaxAvg](https://github.com/hww1999/data-512-homework_1/assets/50925030/3ba2bfa2-ae5d-4cac-b778-9905f4e06c68)
+![MinMaxAvg](https://github.com/hww1999/data-512-homework_1/assets/50925030/840e3cd2-4855-4d29-b541-b2ae1499ba0b)
+
+The MinAvg is intended to view the articles that have the minimum average views on desktop and mobile accesses.
+![MinAvg](https://github.com/hww1999/data-512-homework_1/assets/50925030/2ddef64f-7e93-499e-aaa4-de9ada506469)
+
+![Top10PeakViews](https://github.com/hww1999/data-512-homework_1/assets/50925030/29f24376-16a6-430c-bcce-2589e720d03a)
+
+![FewestMonthData](https://github.com/hww1999/data-512-homework_1/assets/50925030/a1b1ecc6-c499-456a-bffd-5865ffab8b46)
+
+
