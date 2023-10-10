@@ -6,9 +6,22 @@ The goal of the project is to visualize the article traffic of award winning mov
 The source data (licenses) used in the project is a PageViews API called Wikimedia Foundation REST API: [terms of use](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions), with its [documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews) and [endpoint](https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end).
 
 
-Intermediary data files include: X - with fields of ...
+Intermediary data files (inter_ACCESS_startYYYYMM-endYYYYMM.json) include fields of:
 
-Final output files include: Y - with fields of ...
+project: source of the data (en.wikipedia in this case),
+article: name of the article, 
+granularity: the frequency based on which the data we are extracting (monthly in this case),
+timestamp: the timestamp of the data extracted from (formatted as YYYYMMDD00 for API use),
+access: from which platform the data is sourced from, (desktop/mobile-web/mobile-app in this case),
+agent: how the API is extracting (user in this case),
+views: the number of views of the article on the platform during the specific timestamp (integer)
+
+
+Final output files include fields of (academy_monthly_ACCESS_startYYYYMM-endYYYYMM.json) :
+
+article: name of the article, 
+timestamp: the timestamp of the data extracted from (formatted as YYYY-MM-DD after cleaning up),
+views: the number of views of the article on the platform during the specific timestamp (integer)
 
 Known issues/special considerations: for now, there exists movies in the list of articles that have no data from the PageViews API we used.
 
