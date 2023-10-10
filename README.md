@@ -10,6 +10,8 @@ The source data (licenses) used in the project is a PageViews API called Wikimed
 
 # Fields of Data Files
 
+*Given that the analysis happens in Jupyter Notebook instead of database, it is found that flat data structure than nested might be easier to access the results that requires aggregation and sorting. Therefore, the following JSON files are not nested but flat.*
+
 ### Intermediary data files (inter_ACCESS_startYYYYMM-endYYYYMM.json) include fields of:
 
 **project**: source of the data (en.wikipedia in this case),
