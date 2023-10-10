@@ -10,7 +10,7 @@ The source data (licenses) used in the project is a PageViews API called Wikimed
 
 # Fields of Data Files
 
-## Intermediary data files (inter_ACCESS_startYYYYMM-endYYYYMM.json) include fields of:
+### Intermediary data files (inter_ACCESS_startYYYYMM-endYYYYMM.json) include fields of:
 
 project: source of the data (en.wikipedia in this case),
 article: name of the article, 
@@ -20,7 +20,7 @@ access: from which platform the data is sourced from, (desktop/mobile-web/mobile
 agent: how the API is extracting (user in this case),
 views: the number of views of the article on the platform during the specific timestamp (integer)
 
-## Final output files include fields of (academy_monthly_ACCESS_startYYYYMM-endYYYYMM.json) :
+### Final output files include fields of (academy_monthly_ACCESS_startYYYYMM-endYYYYMM.json) :
 
 article: name of the article, 
 timestamp: the timestamp of the data extracted from (formatted as YYYY-MM-DD after cleaning up),
@@ -29,6 +29,8 @@ views: the number of views of the article on the platform during the specific ti
 # Known issues/special considerations
 
 for now, there exists movies in the list of articles that have no data from the PageViews API we used.
+
+# Directory of the Repo
 
 ```bash
 .
