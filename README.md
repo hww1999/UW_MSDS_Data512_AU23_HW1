@@ -12,23 +12,32 @@ The source data (licenses) used in the project is a PageViews API called Wikimed
 
 ### Intermediary data files (inter_ACCESS_startYYYYMM-endYYYYMM.json) include fields of:
 
-project: source of the data (en.wikipedia in this case),
-article: name of the article, 
-granularity: the frequency based on which the data we are extracting (monthly in this case),
-timestamp: the timestamp of the data extracted from (formatted as YYYYMMDD00 for API use),
-access: from which platform the data is sourced from, (desktop/mobile-web/mobile-app in this case),
-agent: how the API is extracting (user in this case),
-views: the number of views of the article on the platform during the specific timestamp (integer)
+**project**: source of the data (en.wikipedia in this case),
 
-### Final output files include fields of (academy_monthly_ACCESS_startYYYYMM-endYYYYMM.json) :
+**article**: name of the article, 
 
-article: name of the article, 
-timestamp: the timestamp of the data extracted from (formatted as YYYY-MM-DD after cleaning up),
-views: the number of views of the article on the platform during the specific timestamp (integer)
+**granularity**: the frequency based on which the data we are extracting (monthly in this case),
+
+**timestamp**: the timestamp of the data extracted from (formatted as YYYYMMDD00 for API use),
+
+**access**: from which platform the data is sourced from, (desktop/mobile-web/mobile-app in this case),
+
+**agent**: how the API is extracting (user in this case),
+
+**views**: the number of views of the article on the platform during the specific timestamp (integer)
+
+### Final output files (academy_monthly_ACCESS_startYYYYMM-endYYYYMM.json) include fields of :
+
+**article**: name of the article, 
+
+**timestamp**: the timestamp of the data extracted from (formatted as YYYY-MM-DD after cleaning up),
+
+**views**: the number of views of the article on the platform during the specific timestamp (integer)
 
 # Known issues/special considerations
 
 for now, there exists movies in the list of articles that have no data from the PageViews API we used.
+
 
 # Directory of the Repo
 
